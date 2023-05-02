@@ -8,7 +8,7 @@ typedef struct complexe Complexe;
 void saisie(struct complexe * Z){
 	printf("Donnez la partie reelle:");
 	scanf("%d",&Z->a);
-	printf("Donnez la partie imaginaire:");
+	printf("Donnez la partie imaginaire svp:");
 	scanf("%d",&Z->b);
 }
 
