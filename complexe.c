@@ -5,7 +5,7 @@ struct complexe {
 	int b;
 };
 void saisie(struct complexe * Z){
-	printf("Donnez la partie reelle:");
+	printf("Donnez la partie réelle:");
 	scanf("%d",&Z->a);
 	printf("Donnez la partie imaginaire:");
 	scanf("%d",&Z->b);
